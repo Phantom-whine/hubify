@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './**/*.html',
-    './**/**/*.html',
-    './**/**/*.js'
+    './hubify-main/*.html',
+    './hubify-main/**/*.html',
+    './hubify-main/**/*.js'
   ],
   theme: {
     extend: {},
